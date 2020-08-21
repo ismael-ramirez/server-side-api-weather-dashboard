@@ -23,6 +23,9 @@ Application user interface is clean and easy to navigate.
 ![GitHub Logo](/screenshot.png)
 
 
+
+http://github.com - link to deployed application!
+
 Repository contains quality README file with description, screenshot, and link to deployed application
 
 How to Submit the Challenge
