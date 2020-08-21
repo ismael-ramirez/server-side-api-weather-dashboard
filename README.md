@@ -24,13 +24,7 @@ Application user interface is clean and easy to navigate.
 
 
 
-http://github.com - link to deployed application!
+ https://ismael-ramirez.github.io/server-side-api-weather-dashboard/ - link to deployed application!
 
-Repository contains quality README file with description, screenshot, and link to deployed application
 
-How to Submit the Challenge
-You are required to submit BOTH of the following for review:
 
-The URL of the functional, deployed application.
-
-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project
