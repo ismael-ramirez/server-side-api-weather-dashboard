@@ -1,0 +1,71 @@
+
+#searchBox{
+    padding-left:0 ;
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
+#searchBtn{
+    background-color:#357eeb ;
+    border-color: lightblue;
+}
+
+#row1{
+    margin: 0;
+    padding: 10px;
+    
+}
+
+button.cityListBtn {
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+#weatherCard{
+    padding: 10px;
+}
+
+
+.low{
+    background-color: green;
+}
+
+.moderate{
+    background-color: yellow;
+}
+
+.high{
+    background-color:orange;
+}
+
+.veryHigh{
+    background-color: red;
+}
+
+.extreme{
+    background-color: purple;
+}
+
+.low, 
+.moderate, 
+.high, 
+.veryHigh, 
+.extreme{
+    padding: 5px;
+
+}
+
+.forecastCard{
+    display: inline-block !important;
+    width: 18% !important;
+    margin-right: 10px;
+    padding: 5px;
+    height: 250px;
+    color: white;
+    background-color: #357eeb !important;
+}

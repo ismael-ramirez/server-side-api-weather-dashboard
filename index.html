@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server Side API Weather Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+
+<body>
+  <br>
+  <div class="container">
+    <div class="jumbotron" style="background-color:#2f3235 ; color: white; padding: 3px;">
+      <h1 class="text-center">
+        Weather Dashboard
+      </h1>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <div class="row" id="row1">
+          <h5><label for="search">Search for a City:</label></h5>
+          <div class="form-group col-10" id="searchBox">
+            <input type="text" class="form-control" id="userInput">
+          </div>
+          <button id="searchBtn" class="btn btn-primary col-2"><i class="fas fa-search"></i></button>
+        </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+
+            </ul>
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8" id="weatherBox">
+        <div class="row">
+          <div class="col-12">
+            <div class="card" id="weatherCard">
+              <h4 class="card-title" id="cityName"></h4>
+              <p id="temperature"></p>
+              <p id="humidity"></p>
+              <p id="windSpeed"></p>
+              <p id="UV"></p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-12">
+              <h5 id="forecast"></h5>
+           </div>
+        </div>   
+
+            <div class="row">
+      
+              <div class="col-12" id="forecastBox">
+                
+              </div>
+              
+     </div>       
+
+
+
+  </div>
+  
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+
+</html>
