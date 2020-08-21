@@ -21,7 +21,7 @@ data and also localStorage to store persistent data.
 Application user interface is clean and easy to navigate. 
 
 ![GitHub Logo](/screenshot.png)
-Format: ![Alt Text](url)
+
 
 Repository contains quality README file with description, screenshot, and link to deployed application
 
